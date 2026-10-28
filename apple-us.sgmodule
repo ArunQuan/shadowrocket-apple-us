@@ -1,5 +1,6 @@
 #!name=苹果服务固定美国
-#!desc=Apple 服务走 VMRack-US，AI 服务走 VMISS-US-Arun
+#!desc=Apple 服务走 VMRack-US，AI 服务走 VMISS-US-Arun，PayPal 走 EUGAMEHOST-UK
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt,VMISS-US-Arun
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/PayPal/PayPal.list,EUGAMEHOST-UK
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list,VMRack-US
